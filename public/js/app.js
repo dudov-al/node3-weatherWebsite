@@ -1,5 +1,3 @@
-console.log("Clientside js");
-
 const weatherForm = document.querySelector("form");
 const inputElement = document.querySelector("input");
 const messageOne = document.querySelector('#message-1')
