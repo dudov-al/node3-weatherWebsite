@@ -46,7 +46,7 @@ app.get("/help", (req, res) => {
 app.get("/weather", (req, res) => {
   if (!req.query.address) {
     return res.send({
-      error: "Provide valid address",
+      error: "Provide valid address in English",
     });
   }
   geoCode(
