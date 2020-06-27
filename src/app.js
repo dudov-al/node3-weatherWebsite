@@ -65,6 +65,7 @@ app.get("/weather", (req, res) => {
           address: req.query.address,
           location,
           forecast: forecastData,
+          html: '<i class="fa fa-sun-o" aria-hidden="true"></i>'
         });
       });
     }

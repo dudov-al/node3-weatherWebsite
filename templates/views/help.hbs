@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/weather.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Help</title>
 </head>
@@ -12,8 +14,11 @@
 <body>
     <div class="main-content">
         {{>header}}
+        <h2>This is a {{title}}</h2>
+        <p>Here you can find my Github and LinkedIn to contact with me</p>
     </div>
-
+    <p>My <a class="link" href="https://github.com/dudov-al">Github</a> <i class="fa fa-github" aria-hidden="true"></i></p> 
+    <p>My <a class="link" href="https://www.linkedin.com/in/alexander-dudov-a01b1617a/">LinkedIn</a> <i class="fa fa-linkedin-square" aria-hidden="true"></i></p> 
     {{>footer}}
 </body>
 
