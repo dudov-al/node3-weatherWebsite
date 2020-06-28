@@ -8,3 +8,5 @@ Built on NodeJS
 * HBS - for rendering dynamic pages
 * Validator - for checking users' inputs
 * Request - customs requests of data
+
+Try [here](https://dudov-weather-app.herokuapp.com/)
